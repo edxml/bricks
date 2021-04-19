@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.email.address" display-name-singular="e-mail address" display-name-plural="e-mail addresses" description="an RFC 5322 e-mail address" data-type="string:254:mc:u" regex-soft="[\S]+@[\S]+\.[a-z]+" version="1"/>
+  </object-types>
+  <concepts/>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

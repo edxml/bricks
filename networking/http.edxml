@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.networking.http.method" display-name-singular="HTTP request method" display-name-plural="HTTP request methods" description="an HTTP request method" data-type="string:255:uc" version="1"/>
+    <object-type name="computing.networking.http.query" display-name-singular="HTTP query" display-name-plural="HTTP queries" description="a query part of a HTTP request" data-type="string:0:mc:u" compress="true" version="1"/>
+    <object-type name="computing.networking.http.resource" display-name-singular="HTTP resource locator" display-name-plural="HTTP resource locators" description="a locator for an HTTP resource" data-type="uri:/" compress="true" version="1"/>
+    <object-type name="computing.networking.http.response.status" display-name-singular="HTTP response status" display-name-plural="HTTP response statuses" description="an HTTP response status" data-type="number:smallint" version="1"/>
+    <object-type name="computing.networking.http.user-agent" display-name-singular="HTTP user agent" display-name-plural="HTTP user agents" description="an HTTP user agent" data-type="string:0:mc:ur" compress="true" version="1"/>
+  </object-types>
+  <concepts/>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

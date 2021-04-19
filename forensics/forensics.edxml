@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.forensics.filesystem.entry.type" display-name-singular="filesystem entry type" display-name-plural="filesystem entry types" description="a type of filesystem entry" data-type="enum:file:directory" version="1"/>
+    <object-type name="computing.forensics.filesystem.update-operation" display-name-singular="update operation" display-name-plural="update operations" description="a type of operation to update a filesystem entry" data-type="enum:changed (metadata):modified (content):accessed" version="1"/>
+  </object-types>
+  <concepts/>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

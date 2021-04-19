@@ -1,0 +1,8 @@
+.coverage
+build/
+dist/
+edxml_bricks_*.egg-info/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo

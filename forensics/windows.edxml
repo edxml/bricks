@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.forensics.windows.device.path" display-name-singular="device path" display-name-plural="device paths" description="a Windows device path" data-type="string:0:mc:u" version="1"/>
+    <object-type name="computing.forensics.windows.domain" display-name-singular="windows domain" display-name-plural="windows domains" description="a name of a Windows network domain" data-type="string:0:uc" compress="true" version="1"/>
+    <object-type name="computing.forensics.windows.drive-letter" display-name-singular="drive letter" display-name-plural="drive letters" description="a Windows drive letter" data-type="string:1:uc" version="1"/>
+    <object-type name="computing.forensics.windows.eventlog.id" display-name-singular="Windows event ID" display-name-plural="Windows event IDs" description="a message type identifier in a Windows event log" data-type="number:int" version="1"/>
+    <object-type name="computing.forensics.windows.eventlog.severity" display-name-singular="Windows event severity" display-name-plural="Windows event severities" description="a message type identifier in a Windows event log" data-type="number:tinyint" version="1"/>
+    <object-type name="computing.forensics.windows.eventlog.source" display-name-singular="Windows event source" display-name-plural="Windows event sources" description="a source of Windows event log messages" data-type="string:0:mc:u" version="1"/>
+    <object-type name="computing.forensics.windows.sid" display-name-singular="SID" display-name-plural="SIDs" description="a Windows security identifier" data-type="string:255:mc" version="1"/>
+    <object-type name="computing.forensics.windows.volume.serial" display-name-singular="volume serial" display-name-plural="volume serials" description="a Windows volume serial number" data-type="hex:4:2:-" version="1"/>
+  </object-types>
+  <concepts/>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.crypto.certificate.cn" display-name-singular="Common Name" display-name-plural="Common Names" description="a Common Name of a public key certificate" data-type="string:0:mc:u" compress="true" version="1"/>
+    <object-type name="computing.crypto.certificate.dn" display-name-singular="Distinguished Name" display-name-plural="Distinguished Names" description="a Distinguished Name of a public key certificate" data-type="string:0:mc:u" compress="true" version="1"/>
+    <object-type name="computing.crypto.certificate.fingerprint.sha1" display-name-singular="certificate fingerprint" display-name-plural="certificate fingerprints" description="a SHA-1 fingerprint of a public key certificate" data-type="hex:20" version="1"/>
+    <object-type name="computing.crypto.hash.md5" display-name-singular="MD5 hash" display-name-plural="MD5 hashes" description="an MD5 cryptographic hash" data-type="hex:16" version="1"/>
+    <object-type name="computing.crypto.hash.sha1" display-name-singular="SHA1 hash" display-name-plural="SHA1 hashes" description="a SHA-1 cryptographic hash" data-type="hex:20" version="1"/>
+    <object-type name="computing.crypto.hash.sha256" display-name-singular="SHA256 hash" display-name-plural="SHA256 hashes" description="a SHA-256 cryptographic hash" data-type="hex:32" version="1"/>
+  </object-types>
+  <concepts>
+    <concept name="document.deed.certificate.pk-certificate" display-name-singular="certificate" display-name-plural="certificates" description="a cryptographic public key certificate" version="1"/>
+  </concepts>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

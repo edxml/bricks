@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.file.name" display-name-singular="file name" display-name-plural="file names" description="a name of a computer file" data-type="string:0:mc:ur" compress="true" version="1"/>
+    <object-type name="computing.file.name.ci" display-name-singular="file name" display-name-plural="file names" description="a name of a computer file in a case insensitive file system" data-type="string:0:uc:ur" compress="true" version="1"/>
+    <object-type name="computing.file.path" display-name-singular="path" display-name-plural="paths" description="a location on a computer filesystem" data-type="string:0:mc:ur" compress="true" version="1"/>
+    <object-type name="computing.file.path.ci" display-name-singular="path" display-name-plural="paths" description="a location on a case insensitive computer filesystem" data-type="string:0:uc:ur" compress="true" version="1"/>
+  </object-types>
+  <concepts>
+    <concept name="entity.abstraction.communication.indication.evidence.record.file" display-name-singular="file" display-name-plural="files" description="a computer resource for recording data" version="1"/>
+  </concepts>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

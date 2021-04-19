@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="computing.cpe.uri" display-name-singular="CPE URI" display-name-plural="CPE URIs" description="a Common Platform Enumeration (CPE) URI" data-type="uri::" compress="true" version="1"/>
+    <object-type name="computing.data.size.bytes" display-name-singular="size" display-name-plural="sizes" description="an amount of data measured in bytes" data-type="number:bigint" unit-name="Byte" unit-symbol="B" prefix-radix="2" version="1"/>
+    <object-type name="computing.hardware.product.name" display-name-singular="hardware product" display-name-plural="hardware products" description="a name of a computer system or computer component" data-type="string:255:mc:u" compress="true" fuzzy-matching="phonetic" version="1"/>
+    <object-type name="computing.identifier.oid" display-name-singular="OID" display-name-plural="OIDs" description="an object identifier (OID) as standardized by the International Telecommunications Union" data-type="string:255:lc" regex-hard="[0-2]\.[\d]+(.\d+)*" version="1"/>
+    <object-type name="computing.identifier.uuid" display-name-singular="UUID" display-name-plural="UUIDs" description="a universally unique identifier" data-type="uuid" version="1"/>
+    <object-type name="computing.software.os.name" display-name-singular="operating system" display-name-plural="operating systems" description="a name of a computer operating system" data-type="string:255:lc:u" version="1"/>
+    <object-type name="computing.software.product.name" display-name-singular="software product" display-name-plural="software products" description="a name of a computer program" data-type="string:255:lc:u" compress="true" fuzzy-matching="phonetic" version="1"/>
+    <object-type name="computing.software.product.version" display-name-singular="software version" display-name-plural="software versions" description="a version of a computer program" data-type="string:255:lc:u" compress="true" version="1"/>
+    <object-type name="computing.user.name" display-name-singular="user name" display-name-plural="user names" description="a name of a computer user account" data-type="string:255:mc:u" version="1"/>
+  </object-types>
+  <concepts>
+    <concept name="entity.physical-entity.object.whole.artifact.instrumentality.device.machine.computer" display-name-singular="computer" display-name-plural="computers" description="a kind of a computing device" version="1"/>
+    <concept name="entity.physical-entity.object.whole.living-thing.organism.person.user" display-name-singular="user" display-name-plural="users" description="a name of a user account on a computer system" version="1"/>
+  </concepts>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

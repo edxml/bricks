@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="finance.banking.bin" display-name-singular="BIN" display-name-plural="BINs" description="a Bank Identification Number of a payment card" data-type="string:16:mc:u" regex-hard="[\d]+" version="1"/>
+    <object-type name="finance.banking.swift" display-name-singular="SWIFT code" display-name-plural="SWIFT codes" description="an ISO 9362 Business Identifier Code (BIC)" data-type="string:11:mc:u" regex-hard="[\dA-Z]+" regex-soft="[A-Z]{8}([A-Z]{3})?" version="1"/>
+  </object-types>
+  <concepts>
+    <concept name="entity.abstraction.group.social-group.organization.company" display-name-singular="company" display-name-plural="companies" description="an organization involved in commercial, industrial, or professional activity" version="1"/>
+    <concept name="entity.abstraction.group.social-group.organization.company.bank" display-name-singular="bank" display-name-plural="banks" description="a financial institution that accepts deposits and makes loans" version="1"/>
+  </concepts>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>

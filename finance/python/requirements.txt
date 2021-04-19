@@ -1,0 +1,4 @@
+flake8
+pytest
+edxml-bricks-generic>=3.0.0.dev0
+edxml>=3.0.0.dev0

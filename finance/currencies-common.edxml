@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
+  <object-types>
+    <object-type name="finance.currency.cad" display-name-singular="amount" display-name-plural="amounts" description="an amount of Canadian Dollars" data-type="number:currency" unit-name="Canadian Dollar" unit-symbol="CAD" version="1"/>
+    <object-type name="finance.currency.chf" display-name-singular="amount" display-name-plural="amounts" description="an amount of Swiss Francs" data-type="number:currency" unit-name="Swiss Franc" unit-symbol="CHF" version="1"/>
+    <object-type name="finance.currency.cny" display-name-singular="amount" display-name-plural="amounts" description="an amount of Yuan Renminbis" data-type="number:currency" unit-name="Yuan Renminbi" unit-symbol="CNY" version="1"/>
+    <object-type name="finance.currency.eur" display-name-singular="amount" display-name-plural="amounts" description="an amount of Euros" data-type="number:currency" unit-name="Euro" unit-symbol="EUR" version="1"/>
+    <object-type name="finance.currency.gbp" display-name-singular="amount" display-name-plural="amounts" description="an amount of Pound Sterlings" data-type="number:currency" unit-name="Pound Sterling" unit-symbol="GBP" version="1"/>
+    <object-type name="finance.currency.jpy" display-name-singular="amount" display-name-plural="amounts" description="an amount of Yens" data-type="number:currency" unit-name="Yen" unit-symbol="JPY" version="1"/>
+    <object-type name="finance.currency.usd" display-name-singular="amount" display-name-plural="amounts" description="an amount of US Dollars" data-type="number:currency" unit-name="US Dollar" unit-symbol="USD" version="1"/>
+  </object-types>
+  <concepts/>
+  <event-types/>
+  <sources/>
+</ontology>
+</edxml>
