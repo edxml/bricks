@@ -28,6 +28,7 @@ class ComputingBrick(Brick):
             .set_description('a universally unique identifier')\
             .set_data_type(DataType.uuid())\
             .set_display_name('UUID')\
+            .set_xref('https://en.wikipedia.org/wiki/Universally_unique_identifier')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_OID) \
@@ -35,6 +36,7 @@ class ComputingBrick(Brick):
             .set_data_type(DataType.string(255, upper_case=False, require_unicode=False))\
             .set_display_name('OID')\
             .set_regex_hard(r'[0-2]\.[\d]+(.\d+)*')\
+            .set_xref('https://en.wikipedia.org/wiki/Object_identifier')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_DATA_SIZE_BYTES) \
@@ -84,6 +86,7 @@ class ComputingBrick(Brick):
             .set_description('a Common Platform Enumeration (CPE) URI') \
             .set_data_type(DataType.uri(path_separator=':')) \
             .set_display_name('CPE URI')\
+            .set_xref('https://en.wikipedia.org/wiki/Common_Platform_Enumeration')\
             .compress()\
             .set_version(1)
 

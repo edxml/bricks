@@ -21,6 +21,7 @@ class FinanceBrick(Brick):
             .set_display_name('BIN') \
             .set_description("a Bank Identification Number of a payment card") \
             .set_regex_hard(r'[\d]+') \
+            .set_xref('https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)') \
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_BANKING_SWIFT_CODE) \
@@ -29,6 +30,7 @@ class FinanceBrick(Brick):
             .set_description("an ISO 9362 Business Identifier Code (BIC)") \
             .set_regex_hard(r'[\dA-Z]+') \
             .set_regex_soft(r'[A-Z]{8}([A-Z]{3})?') \
+            .set_xref('https://en.wikipedia.org/wiki/ISO_9362') \
             .set_version(1)
 
     @classmethod

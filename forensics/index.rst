@@ -70,6 +70,7 @@ computing.forensics.windows.volume.serial
                display-name-plural="volume serials"
                description="a Windows volume serial number"
                data-type="hex:4:2:-"
+               xref="https://en.wikipedia.org/wiki/Volume_serial_number"
                version="1"/>
 
 computing.forensics.windows.device.path
@@ -109,6 +110,7 @@ computing.forensics.windows.sid
                display-name-plural="SIDs"
                description="a Windows security identifier"
                data-type="string:255:mc"
+               xref="https://en.wikipedia.org/wiki/Security_Identifier"
                version="1"/>
 
 computing.forensics.windows.eventlog.id

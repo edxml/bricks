@@ -164,6 +164,7 @@ computing.networking.protocol.number
                display-name-plural="protocol numbers"
                description="an IANA internet protocol number"
                data-type="number:tinyint"
+               xref="https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers"
                version="1"/>
 
 computing.networking.protocol.name

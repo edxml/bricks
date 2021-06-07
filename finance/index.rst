@@ -218,6 +218,7 @@ finance.banking.bin
                display-name-plural="BINs"
                description="a Bank Identification Number of a payment card"
                data-type="string:16:mc:u"
+               xref="https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)"
                regex-hard="[\d]+"
                version="1"/>
 
@@ -232,6 +233,7 @@ finance.banking.swift
                display-name-plural="SWIFT codes"
                description="an ISO 9362 Business Identifier Code (BIC)"
                data-type="string:11:mc:u"
+               xref="https://en.wikipedia.org/wiki/ISO_9362"
                regex-hard="[\dA-Z]+"
                regex-soft="[A-Z]{8}([A-Z]{3})?"
                version="1"/>

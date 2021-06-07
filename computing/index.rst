@@ -62,6 +62,7 @@ computing.identifier.uuid
                display-name-plural="UUIDs"
                description="a universally unique identifier"
                data-type="uuid"
+               xref="https://en.wikipedia.org/wiki/Universally_unique_identifier"
                version="1"/>
 
 computing.identifier.oid
@@ -75,6 +76,7 @@ computing.identifier.oid
                display-name-plural="OIDs"
                description="an object identifier (OID) as standardized by the International Telecommunications Union"
                data-type="string:255:lc"
+               xref="https://en.wikipedia.org/wiki/Object_identifier"
                regex-hard="[0-2]\.[\d]+(.\d+)*"
                version="1"/>
 
@@ -175,6 +177,7 @@ computing.cpe.uri
                display-name-plural="CPE URIs"
                description="a Common Platform Enumeration (CPE) URI"
                data-type="uri::"
+               xref="https://en.wikipedia.org/wiki/Common_Platform_Enumeration"
                compress="true"
                version="1"/>
 

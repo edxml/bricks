@@ -86,6 +86,7 @@ class NetworkingBrick(Brick):
             .set_description('an IANA internet protocol number')\
             .set_data_type(DataType.tiny_int(signed=False))\
             .set_display_name('protocol number')\
+            .set_xref('https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_PROTO_NAME) \

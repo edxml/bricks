@@ -21,6 +21,7 @@ class GeoBrick(Brick):
             .set_data_type(DataType.string(2, lower_case=False, require_unicode=False))\
             .set_display_name('country code')\
             .set_regex_hard('[A-Z]{2}')\
+            .set_xref('https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_COUNTRY_NAME) \
@@ -48,6 +49,7 @@ class GeoBrick(Brick):
             .set_description('a location on Earth, in the WGS84 coordinate system')\
             .set_data_type(DataType.geo_point())\
             .set_display_name('coordinate')\
+            .set_xref('https://en.wikipedia.org/wiki/World_Geodetic_System')\
             .set_version(1)
 
 

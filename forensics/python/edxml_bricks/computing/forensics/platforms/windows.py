@@ -23,6 +23,7 @@ class WindowsBrick(Brick):
             .set_description('a Windows volume serial number')\
             .set_data_type(DataType.hex(length=4, separator='-', group_size=2))\
             .set_display_name('volume serial')\
+            .set_xref('https://en.wikipedia.org/wiki/Volume_serial_number')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_DEVICE_PATH) \
@@ -41,6 +42,7 @@ class WindowsBrick(Brick):
             .set_description('a Windows security identifier')\
             .set_data_type(DataType.string(length=255, require_unicode=False))\
             .set_display_name('SID')\
+            .set_xref('https://en.wikipedia.org/wiki/Security_Identifier')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_EVENTLOG_ID) \

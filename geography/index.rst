@@ -34,6 +34,7 @@ geo.location.country.iso3166-1-alpha2
                display-name-plural="country codes"
                description="an ISO 3166-1 alpha-2 country code"
                data-type="string:2:uc"
+               xref="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2"
                regex-hard="[A-Z]{2}"
                version="1"/>
 
@@ -90,5 +91,6 @@ geo.location.wgs84
                display-name-plural="coordinates"
                description="a location on Earth, in the WGS84 coordinate system"
                data-type="geo:point"
+               xref="https://en.wikipedia.org/wiki/World_Geodetic_System"
                version="1"/>
 

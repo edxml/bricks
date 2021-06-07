@@ -70,6 +70,7 @@ computing.security.cvss.vector
                display-name-plural="CVSS base vectors"
                description="a base vector in the Common Vulnerability Scoring System"
                data-type="string:255:mc"
+               xref="https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System"
                compress="true"
                regex-soft="AV:[LAN]/AC:[HML]/Au:[MSN]/C:[NPC]/I:[NPC]/A:[NPC]"
                version="1"/>
@@ -85,6 +86,7 @@ computing.security.cvss.score
                display-name-plural="CVSS base scores"
                description="a base score in the Common Vulnerability Scoring System"
                data-type="number:decimal:3:1"
+               xref="https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System"
                version="1"/>
 
 computing.security.vulnerability.cve
@@ -98,6 +100,7 @@ computing.security.vulnerability.cve
                display-name-plural="CVE numbers"
                description="a unique identifier of a security vulnerability in the CVE dictionary"
                data-type="string:255:uc"
+               xref="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
                regex-hard="CVE-[\d]{4}-\d+"
                regex-soft="CVE-202\d-00\d{2}"
                version="1"/>
@@ -113,6 +116,7 @@ computing.security.vulnerability.bid
                display-name-plural="BID numbers"
                description="a unique identifier of a security vulnerability on Bugtraq"
                data-type="number:int"
+               xref="https://en.wikipedia.org/wiki/Bugtraq"
                version="1"/>
 
 computing.crypto.hash.md5

@@ -2,10 +2,10 @@
 <edxml xmlns="http://edxml.org/edxml" version="3.0.0"><ontology xmlns="http://edxml.org/edxml">
   <object-types>
     <object-type name="geo.location.city.name" display-name-singular="city" display-name-plural="cities" description="a name of a city" data-type="string:0:mc:u" fuzzy-matching="phonetic" version="1"/>
-    <object-type name="geo.location.country.iso3166-1-alpha2" display-name-singular="country code" display-name-plural="country codes" description="an ISO 3166-1 alpha-2 country code" data-type="string:2:uc" regex-hard="[A-Z]{2}" version="1"/>
+    <object-type name="geo.location.country.iso3166-1-alpha2" display-name-singular="country code" display-name-plural="country codes" description="an ISO 3166-1 alpha-2 country code" data-type="string:2:uc" xref="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" regex-hard="[A-Z]{2}" version="1"/>
     <object-type name="geo.location.country.name" display-name-singular="country" display-name-plural="countries" description="a name of a country" data-type="string:0:mc:u" fuzzy-matching="phonetic" version="1"/>
     <object-type name="geo.location.region.name" display-name-singular="region" display-name-plural="regions" description="a name of a geopolitical region" data-type="string:0:mc:u" fuzzy-matching="phonetic" version="1"/>
-    <object-type name="geo.location.wgs84" display-name-singular="coordinate" display-name-plural="coordinates" description="a location on Earth, in the WGS84 coordinate system" data-type="geo:point" version="1"/>
+    <object-type name="geo.location.wgs84" display-name-singular="coordinate" display-name-plural="coordinates" description="a location on Earth, in the WGS84 coordinate system" data-type="geo:point" xref="https://en.wikipedia.org/wiki/World_Geodetic_System" version="1"/>
   </object-types>
   <concepts/>
   <event-types/>

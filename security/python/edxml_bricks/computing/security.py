@@ -37,12 +37,14 @@ class SecurityBrick(Brick):
             .set_display_name('CVSS base vector')\
             .set_regex_soft('AV:[LAN]/AC:[HML]/Au:[MSN]/C:[NPC]/I:[NPC]/A:[NPC]')\
             .compress()\
+            .set_xref('https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_CVSS_SCORE) \
             .set_description('a base score in the Common Vulnerability Scoring System')\
             .set_data_type(DataType.decimal(total_digits=3, fractional_digits=1, signed=False))\
             .set_display_name('CVSS base score')\
+            .set_xref('https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_CVE) \
@@ -51,12 +53,14 @@ class SecurityBrick(Brick):
             .set_display_name('CVE number')\
             .set_regex_hard(r'CVE-[\d]{4}-\d+')\
             .set_regex_soft(r'CVE-202\d-00\d{2}')\
+            .set_xref('https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures')\
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_BID) \
             .set_description('a unique identifier of a security vulnerability on Bugtraq')\
             .set_data_type(DataType.int(signed=False))\
             .set_display_name('BID number')\
+            .set_xref('https://en.wikipedia.org/wiki/Bugtraq')\
             .set_version(1)
 
     @classmethod
