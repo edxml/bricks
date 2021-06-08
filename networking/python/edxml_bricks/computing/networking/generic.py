@@ -19,7 +19,7 @@ class NetworkingBrick(Brick):
     OBJECT_NETWORK_CIDR_IPV6 = 'computing.networking.network.cidr.ipv6'
 
     OBJECT_PROTO_NUM = 'computing.networking.protocol.number'
-    OBJECT_PROTO_NAME = 'computing.networking.protocol.name'
+    OBJECT_PROTOCOL_KEYWORD = 'computing.networking.protocol.keyword'
 
     CONCEPT_NETWORK_ROUTER = ComputingBrick.CONCEPT_COMPUTER + '.router'
 
@@ -89,10 +89,11 @@ class NetworkingBrick(Brick):
             .set_xref('https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml')\
             .set_version(1)
 
-        yield target_ontology.create_object_type(cls.OBJECT_PROTO_NAME) \
-            .set_description('an IANA internet protocol name')\
-            .set_data_type(DataType.string(10, lower_case=False))\
-            .set_display_name('internet protocol name')\
+        yield target_ontology.create_object_type(cls.OBJECT_PROTOCOL_KEYWORD) \
+            .set_description('a keyword of an IANA assigned internet protocol')\
+            .set_data_type(DataType.string(24))\
+            .set_display_name('internet protocol')\
+            .set_xref('https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml')\
             .set_version(1)
 
     @classmethod
