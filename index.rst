@@ -40,7 +40,7 @@ Object Types
 - `computing.networking.http.user-agent <networking/index.rst#computingnetworkinghttpuser-agent>`_
 - `computing.networking.network.cidr.ipv4 <networking/index.rst#computingnetworkingnetworkcidripv4>`_
 - `computing.networking.network.cidr.ipv6 <networking/index.rst#computingnetworkingnetworkcidripv6>`_
-- `computing.networking.protocol.name <networking/index.rst#computingnetworkingprotocolname>`_
+- `computing.networking.protocol.keyword <networking/index.rst#computingnetworkingprotocolkeyword>`_
 - `computing.networking.protocol.number <networking/index.rst#computingnetworkingprotocolnumber>`_
 - `computing.security.cvss.score <security/index.rst#computingsecuritycvssscore>`_
 - `computing.security.cvss.vector <security/index.rst#computingsecuritycvssvector>`_

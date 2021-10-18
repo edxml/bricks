@@ -17,7 +17,7 @@ Object types:
 - computing.networking.network.cidr.ipv4_
 - computing.networking.network.cidr.ipv6_
 - computing.networking.protocol.number_
-- computing.networking.protocol.name_
+- computing.networking.protocol.keyword_
 
 Concepts:
 
@@ -164,20 +164,21 @@ computing.networking.protocol.number
                display-name-plural="protocol numbers"
                description="an IANA internet protocol number"
                data-type="number:tinyint"
-               xref="https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers"
+               xref="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
                version="1"/>
 
-computing.networking.protocol.name
-----------------------------------
-*an IANA internet protocol name*
+computing.networking.protocol.keyword
+-------------------------------------
+*a keyword of an IANA assigned internet protocol*
 
 .. code-block:: xml
 
-  <object-type name="computing.networking.protocol.name"
-               display-name-singular="internet protocol name"
-               display-name-plural="internet protocol names"
-               description="an IANA internet protocol name"
-               data-type="string:10:uc:u"
+  <object-type name="computing.networking.protocol.keyword"
+               display-name-singular="internet protocol"
+               display-name-plural="internet protocols"
+               description="a keyword of an IANA assigned internet protocol"
+               data-type="string:24:mc:u"
+               xref="https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
                version="1"/>
 
 computing.networking.http.resource
