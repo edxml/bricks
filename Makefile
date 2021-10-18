@@ -37,11 +37,11 @@ test:
 	# Below fails when regenerating the rst documents that describe
 	# the bricks results in changes in the Git repo. That happens when
 	# the rst documents are not up to date.
-	$(MAKE) rst && git diff --exit-code
+	$(MAKE) rst && git diff --exit-code '*.rst'
 	# Below fails when regenerating the EDXML serializations of the bricks
 	# results in changes in the Git repo. That happens when
 	# the EDXML serializations are not up to date.
-	$(MAKE) edxml && git diff --exit-code
+	$(MAKE) edxml && git diff --exit-code '*.edxml'
 
 rst:
 	python3 dump_rst.py
