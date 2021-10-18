@@ -3,8 +3,9 @@
 dependencies:
 	@echo "Installing dependencies:"
 	pip3 install -r requirements.txt
+	pip3 install flake8 pytest wheel twine
 
-dist:
+dist: dependencies
 	python3 setup.py sdist bdist_wheel
 
 pypi: dist
