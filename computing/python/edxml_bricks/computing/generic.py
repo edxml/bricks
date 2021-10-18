@@ -32,7 +32,8 @@ class ComputingBrick(Brick):
             .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_OID) \
-            .set_description('an object identifier (OID) as standardized by the International Telecommunications Union')\
+            .set_description('an object identifier (OID) as standardized by '
+                             'the International Telecommunications Union')\
             .set_data_type(DataType.string(255, upper_case=False, require_unicode=False))\
             .set_display_name('OID')\
             .set_regex_hard(r'[0-2]\.[\d]+(.\d+)*')\
