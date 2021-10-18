@@ -7,8 +7,10 @@ dependencies:
 dist:
 	python3 setup.py sdist bdist_wheel
 
-pypi:
-	python3 setup.py sdist bdist_wheel upload
+pypi: dist
+	# NOTE: twine will read TWINE_USERNAME and TWINE_PASSWORD from environment
+	@echo "Uploading to PyPI:"
+	twine upload dist/*
 
 test: dependencies
 	flake8 --max-line-length=120
