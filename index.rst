@@ -238,6 +238,7 @@ Object Types
 - `organization.unit.name <generic/index.rst#organizationunitname>`_
 - `person.name <generic/index.rst#personname>`_
 - `sequence <generic/index.rst#sequence>`_
+- `string.generic.utf8 <generic/index.rst#stringgenericutf8>`_
 
 Concepts
 --------

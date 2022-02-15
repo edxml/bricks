@@ -10,6 +10,7 @@
     <object-type name="organization.unit.name" display-name-singular="unit name" display-name-plural="unit names" description="a name of a specific unit within an organization" data-type="string:0:mc:u" fuzzy-matching="phonetic" version="1"/>
     <object-type name="person.name" display-name-singular="name" display-name-plural="names" description="a name of a person" data-type="string:0:mc:u" fuzzy-matching="phonetic" version="1"/>
     <object-type name="sequence" display-name-singular="sequence number" display-name-plural="sequence numbers" description="a positive integer from a series of consecutive numbers" data-type="sequence" version="1"/>
+    <object-type name="string.generic.utf8" display-name-singular="string" display-name-plural="strings" description="a utf-8 encoded string" data-type="string:0:mc:u" version="1"/>
   </object-types>
   <concepts>
     <concept name="entity" display-name-singular="entity" display-name-plural="entities" description="that which is perceived or known or inferred to have its own distinct existence" version="1"/>

@@ -7,6 +7,7 @@ class GenericBrick(Brick):
     Brick that defines some generic object types and concepts.
     """
 
+    OBJECT_STRING_UTF8 = 'string.generic.utf8'
     OBJECT_DATETIME = 'datetime'
     OBJECT_SEQUENCE = 'sequence'
     OBJECT_DURATION_SECONDS = 'datetime.duration.seconds'
@@ -34,6 +35,12 @@ class GenericBrick(Brick):
 
     @classmethod
     def generate_object_types(cls, target_ontology):
+
+        yield target_ontology.create_object_type(cls.OBJECT_STRING_UTF8) \
+            .set_description('a utf-8 encoded string')\
+            .set_data_type(DataType.string())\
+            .set_display_name('string')\
+            .set_version(1)
 
         yield target_ontology.create_object_type(cls.OBJECT_DATETIME) \
             .set_description('a date and time in ISO 8601 format')\

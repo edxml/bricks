@@ -8,6 +8,7 @@ GenericBrick
 ============
 Object types:
 
+- string.generic.utf8_
 - datetime_
 - datetime.duration.seconds_
 - sequence_
@@ -40,6 +41,19 @@ Definitions
 
 Object Types
 ============
+
+string.generic.utf8
+-------------------
+*a utf-8 encoded string*
+
+.. code-block:: xml
+
+  <object-type name="string.generic.utf8"
+               display-name-singular="string"
+               display-name-plural="strings"
+               description="a utf-8 encoded string"
+               data-type="string:0:mc:u"
+               version="1"/>
 
 datetime
 --------
