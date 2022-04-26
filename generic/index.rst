@@ -32,6 +32,9 @@ Concepts:
 - entity.abstraction.group_
 - entity.abstraction.group.social-group_
 - entity.abstraction.group.social-group.organization_
+- entity.abstraction.psychological-feature_
+- entity.abstraction.psychological-feature.event_
+- entity.abstraction.psychological-feature.event.act_
 
 
 
@@ -311,5 +314,41 @@ entity.abstraction.group.social-group.organization
            display-name-singular="organization"
            display-name-plural="organizations"
            description="an organized group of people working together"
+           version="1"/>
+
+entity.abstraction.psychological-feature
+----------------------------------------
+*a feature of the mental life of a living organism*
+
+.. code-block:: xml
+
+  <concept name="entity.abstraction.psychological-feature"
+           display-name-singular="psychological feature"
+           display-name-plural="psychological features"
+           description="a feature of the mental life of a living organism"
+           version="1"/>
+
+entity.abstraction.psychological-feature.event
+----------------------------------------------
+*something that happens at a given place and time*
+
+.. code-block:: xml
+
+  <concept name="entity.abstraction.psychological-feature.event"
+           display-name-singular="event"
+           display-name-plural="events"
+           description="something that happens at a given place and time"
+           version="1"/>
+
+entity.abstraction.psychological-feature.event.act
+--------------------------------------------------
+*something that people do or cause to happen*
+
+.. code-block:: xml
+
+  <concept name="entity.abstraction.psychological-feature.event.act"
+           display-name-singular="act"
+           display-name-plural="acts"
+           description="something that people do or cause to happen"
            version="1"/>
 

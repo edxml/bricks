@@ -253,6 +253,9 @@ Concepts
 - `entity.abstraction.group.social-group.organization <generic/index.rst#entityabstractiongroupsocial-grouporganization>`_
 - `entity.abstraction.group.social-group.organization.company <finance/index.rst#entityabstractiongroupsocial-grouporganizationcompany>`_
 - `entity.abstraction.group.social-group.organization.company.bank <finance/index.rst#entityabstractiongroupsocial-grouporganizationcompanybank>`_
+- `entity.abstraction.psychological-feature <generic/index.rst#entityabstractionpsychological-feature>`_
+- `entity.abstraction.psychological-feature.event <generic/index.rst#entityabstractionpsychological-featureevent>`_
+- `entity.abstraction.psychological-feature.event.act <generic/index.rst#entityabstractionpsychological-featureeventact>`_
 - `entity.physical-entity <generic/index.rst#entityphysical-entity>`_
 - `entity.physical-entity.causal-agent.danger.threat <security/index.rst#entityphysical-entitycausal-agentdangerthreat>`_
 - `entity.physical-entity.object <generic/index.rst#entityphysical-entityobject>`_

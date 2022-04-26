@@ -18,6 +18,9 @@
     <concept name="entity.abstraction.group" display-name-singular="group" display-name-plural="groups" description="any number of entities (members) considered as a unit" version="1"/>
     <concept name="entity.abstraction.group.social-group" display-name-singular="social group" display-name-plural="social groups" description="a number of people sharing some social relation" version="1"/>
     <concept name="entity.abstraction.group.social-group.organization" display-name-singular="organization" display-name-plural="organizations" description="an organized group of people working together" version="1"/>
+    <concept name="entity.abstraction.psychological-feature" display-name-singular="psychological feature" display-name-plural="psychological features" description="a feature of the mental life of a living organism" version="1"/>
+    <concept name="entity.abstraction.psychological-feature.event" display-name-singular="event" display-name-plural="events" description="something that happens at a given place and time" version="1"/>
+    <concept name="entity.abstraction.psychological-feature.event.act" display-name-singular="act" display-name-plural="acts" description="something that people do or cause to happen" version="1"/>
     <concept name="entity.physical-entity" display-name-singular="physical entity" display-name-plural="physical entities" description="an entity that has physical existence" version="1"/>
     <concept name="entity.physical-entity.object" display-name-singular="object" display-name-plural="objects" description="a tangible and visible entity" version="1"/>
     <concept name="entity.physical-entity.object.whole" display-name-singular="whole" display-name-plural="wholes" description="an assemblage of parts that is regarded as a single entity" version="1"/>

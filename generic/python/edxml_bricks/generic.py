@@ -29,6 +29,10 @@ class GenericBrick(Brick):
     CONCEPT_ORGANISM = 'entity.physical-entity.object.whole.living-thing.organism'
     CONCEPT_PERSON = 'entity.physical-entity.object.whole.living-thing.organism.person'
 
+    CONCEPT_PSYCHOLOGICAL_FEATURE = 'entity.abstraction.psychological-feature'
+    CONCEPT_EVENT = 'entity.abstraction.psychological-feature.event'
+    CONCEPT_ACT = 'entity.abstraction.psychological-feature.event.act'
+
     CONCEPT_GROUP = 'entity.abstraction.group'
     CONCEPT_SOCIAL_GROUP = 'entity.abstraction.group.social-group'
     CONCEPT_ORGANIZATION = 'entity.abstraction.group.social-group.organization'
@@ -157,6 +161,21 @@ class GenericBrick(Brick):
         yield target_ontology.create_concept(cls.CONCEPT_ORGANIZATION) \
             .set_description('an organized group of people working together') \
             .set_display_name('organization')\
+            .set_version(1)
+
+        yield target_ontology.create_concept(cls.CONCEPT_PSYCHOLOGICAL_FEATURE) \
+            .set_description('a feature of the mental life of a living organism') \
+            .set_display_name('psychological feature')\
+            .set_version(1)
+
+        yield target_ontology.create_concept(cls.CONCEPT_EVENT) \
+            .set_description('something that happens at a given place and time') \
+            .set_display_name('event')\
+            .set_version(1)
+
+        yield target_ontology.create_concept(cls.CONCEPT_ACT) \
+            .set_description('something that people do or cause to happen') \
+            .set_display_name('act')\
             .set_version(1)
 
 
