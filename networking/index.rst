@@ -249,3 +249,18 @@ computing.networking.http.user-agent
                compress="true"
                version="1"/>
 
+Concepts
+========
+
+entity.physical-entity.object.whole.artifact.instrumentality.device.machine.computer.router
+-------------------------------------------------------------------------------------------
+*a networking device that forwards data packets between computer networks*
+
+.. code-block:: xml
+
+  <concept name="entity.physical-entity.object.whole.artifact.instrumentality.device.machine.computer.router"
+           display-name-singular="network router"
+           display-name-plural="network routers"
+           description="a networking device that forwards data packets between computer networks"
+           version="1"/>
+

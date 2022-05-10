@@ -2818,3 +2818,30 @@ finance.currency.zwl
                unit-symbol="ZWL"
                version="1"/>
 
+Concepts
+========
+
+entity.abstraction.group.social-group.organization.company
+----------------------------------------------------------
+*an organization involved in commercial, industrial, or professional activity*
+
+.. code-block:: xml
+
+  <concept name="entity.abstraction.group.social-group.organization.company"
+           display-name-singular="company"
+           display-name-plural="companies"
+           description="an organization involved in commercial, industrial, or professional activity"
+           version="1"/>
+
+entity.abstraction.group.social-group.organization.company.bank
+---------------------------------------------------------------
+*a financial institution that accepts deposits and makes loans*
+
+.. code-block:: xml
+
+  <concept name="entity.abstraction.group.social-group.organization.company.bank"
+           display-name-singular="bank"
+           display-name-plural="banks"
+           description="a financial institution that accepts deposits and makes loans"
+           version="1"/>
+
