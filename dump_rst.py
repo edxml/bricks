@@ -133,12 +133,18 @@ for path, bricks in paths_bricks.items():
             brick_index.write('=' * len(brick.__name__) + '\n')
             if brick_object_type_names(brick()):
                 have_object_types = True
+                # Write sorted references, ignoring the trailing underscore.
                 brick_index.write('Object types:\n\n')
-                brick_index.write('\n'.join(brick_object_type_names(brick())) + '\n\n')
+                brick_index.write(
+                    '\n'.join(sorted(brick_object_type_names(brick()), key=lambda item: item[:-1])) + '\n\n'
+                )
             if brick_concept_names(brick()):
                 have_concepts = True
+                # Write sorted references, ignoring the trailing underscore.
                 brick_index.write('Concepts:\n\n')
-                brick_index.write('\n'.join(brick_concept_names(brick())) + '\n\n')
+                brick_index.write(
+                    '\n'.join(sorted(brick_concept_names(brick()), key=lambda item: item[:-1])) + '\n\n'
+                )
         brick_index.write('\n\n')
         brick_index.write('***********\n')
         brick_index.write('Definitions\n')

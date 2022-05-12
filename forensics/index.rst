@@ -8,21 +8,21 @@ ForensicsBrick
 ==============
 Object types:
 
-- computing.forensics.filesystem.update-operation_
 - computing.forensics.filesystem.entry.type_
+- computing.forensics.filesystem.update-operation_
 
 WindowsBrick
 ============
 Object types:
 
-- computing.forensics.windows.volume.serial_
 - computing.forensics.windows.device.path_
+- computing.forensics.windows.domain_
 - computing.forensics.windows.drive-letter_
-- computing.forensics.windows.sid_
 - computing.forensics.windows.eventlog.id_
 - computing.forensics.windows.eventlog.severity_
 - computing.forensics.windows.eventlog.source_
-- computing.forensics.windows.domain_
+- computing.forensics.windows.sid_
+- computing.forensics.windows.volume.serial_
 
 
 

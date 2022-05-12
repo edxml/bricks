@@ -8,10 +8,10 @@ GeoBrick
 ========
 Object types:
 
+- geo.location.city.name_
 - geo.location.country.iso3166-1-alpha2_
 - geo.location.country.name_
 - geo.location.region.name_
-- geo.location.city.name_
 - geo.location.wgs84_
 
 

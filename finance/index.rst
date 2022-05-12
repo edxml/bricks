@@ -20,11 +20,11 @@ CommonCurrenciesBrick
 =====================
 Object types:
 
+- finance.currency.cad_
 - finance.currency.chf_
 - finance.currency.cny_
 - finance.currency.eur_
 - finance.currency.gbp_
-- finance.currency.cad_
 - finance.currency.jpy_
 - finance.currency.usd_
 

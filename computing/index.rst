@@ -8,15 +8,15 @@ ComputingBrick
 ==============
 Object types:
 
-- computing.identifier.uuid_
-- computing.identifier.oid_
-- computing.data.size.bytes_
-- computing.user.name_
-- computing.software.product.name_
-- computing.hardware.product.name_
-- computing.software.product.version_
-- computing.software.os.name_
 - computing.cpe.uri_
+- computing.data.size.bytes_
+- computing.hardware.product.name_
+- computing.identifier.oid_
+- computing.identifier.uuid_
+- computing.software.os.name_
+- computing.software.product.name_
+- computing.software.product.version_
+- computing.user.name_
 
 Concepts:
 

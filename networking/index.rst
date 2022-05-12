@@ -8,16 +8,16 @@ NetworkingBrick
 ===============
 Object types:
 
-- computing.networking.host.ipv4_
-- computing.networking.host.ipv6_
-- computing.networking.host.port_
 - computing.networking.host.dns-name_
 - computing.networking.host.dns-name.wildcard_
+- computing.networking.host.ipv4_
+- computing.networking.host.ipv6_
 - computing.networking.host.mac_
+- computing.networking.host.port_
 - computing.networking.network.cidr.ipv4_
 - computing.networking.network.cidr.ipv6_
-- computing.networking.protocol.number_
 - computing.networking.protocol.keyword_
+- computing.networking.protocol.number_
 
 Concepts:
 
@@ -27,10 +27,10 @@ HttpBrick
 =========
 Object types:
 
-- computing.networking.http.resource_
-- computing.networking.http.response.status_
 - computing.networking.http.method_
 - computing.networking.http.query_
+- computing.networking.http.resource_
+- computing.networking.http.response.status_
 - computing.networking.http.user-agent_
 
 

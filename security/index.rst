@@ -8,29 +8,29 @@ SecurityBrick
 =============
 Object types:
 
-- computing.security.malware.sample.name_
-- computing.security.cvss.vector_
 - computing.security.cvss.score_
-- computing.security.vulnerability.cve_
+- computing.security.cvss.vector_
+- computing.security.malware.sample.name_
 - computing.security.vulnerability.bid_
+- computing.security.vulnerability.cve_
 
 Concepts:
 
+- entity.abstraction.attribute.state.condition.danger.vulnerability_
 - entity.abstraction.communication.written-communication.writing.coding-system.code.software.malware_
 - entity.physical-entity.causal-agent.danger.threat_
-- entity.abstraction.attribute.state.condition.danger.vulnerability_
 - entity.physical-entity.object.whole.artifact.instrumentality.device.machine.computer.vulnerability-scanner_
 
 CryptoBrick
 ===========
 Object types:
 
+- computing.crypto.certificate.cn_
+- computing.crypto.certificate.dn_
+- computing.crypto.certificate.fingerprint.sha1_
 - computing.crypto.hash.md5_
 - computing.crypto.hash.sha1_
 - computing.crypto.hash.sha256_
-- computing.crypto.certificate.dn_
-- computing.crypto.certificate.cn_
-- computing.crypto.certificate.fingerprint.sha1_
 
 Concepts:
 

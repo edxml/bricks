@@ -8,33 +8,33 @@ GenericBrick
 ============
 Object types:
 
-- string.generic.utf8_
+- boolean_
+- count.big_
+- count.small_
 - datetime_
 - datetime.duration.seconds_
-- sequence_
-- boolean_
-- count.small_
-- count.big_
-- person.name_
 - organization.name_
 - organization.unit.name_
+- person.name_
+- sequence_
+- string.generic.utf8_
 
 Concepts:
 
 - entity_
-- entity.physical-entity_
 - entity.abstraction_
-- entity.physical-entity.object_
-- entity.physical-entity.object.whole_
-- entity.physical-entity.object.whole.living-thing_
-- entity.physical-entity.object.whole.living-thing.organism_
-- entity.physical-entity.object.whole.living-thing.organism.person_
 - entity.abstraction.group_
 - entity.abstraction.group.social-group_
 - entity.abstraction.group.social-group.organization_
 - entity.abstraction.psychological-feature_
 - entity.abstraction.psychological-feature.event_
 - entity.abstraction.psychological-feature.event.act_
+- entity.physical-entity_
+- entity.physical-entity.object_
+- entity.physical-entity.object.whole_
+- entity.physical-entity.object.whole.living-thing_
+- entity.physical-entity.object.whole.living-thing.organism_
+- entity.physical-entity.object.whole.living-thing.organism.person_
 
 
 
