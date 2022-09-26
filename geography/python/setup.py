@@ -55,6 +55,6 @@ setup(
     # See https://pip.pypa.io/en/latest/reference/pip_install.html#requirements-file-format
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/technical.html#install-requires-vs-requirements-files
-    install_requires=['edxml>=3.0.0.dev0'],
+    install_requires=['edxml~=3.0'],
     extras_require={'dev': ['flake8', 'pytest', 'coverage']},
 )

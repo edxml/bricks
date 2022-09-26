@@ -6,7 +6,7 @@ dependencies:
 	@echo "Installing dependencies:"
 	python3 -m pip install --upgrade pip setuptools wheel
 	pip3 install flake8 pytest
-	pip3 install 'edxml>=3.0.0.dev0'
+	pip3 install 'edxml~=3.0'
 
 dist:
 	cd generic/python ; $(MAKE) dist .

@@ -1,3 +1,3 @@
 flake8
 pytest
-edxml>=3.0.0.dev0
+edxml~=3.0
