@@ -1,4 +1,4 @@
-.PHONY: dependencies dist pypi test coverage coverage-report install install-dev
+.PHONY: dependencies dist pypi pypi-test test coverage coverage-report install install-dev
 
 dependencies:
 	@echo "Installing dependencies:"
@@ -9,6 +9,13 @@ dist:
 	pip3 install wheel
 	rm -rf build dist edxml_bricks_generic.egg-info
 	python3 setup.py sdist bdist_wheel
+
+pypi-test: dist
+	# NOTE: twine will read TWINE_USERNAME and TWINE_PASSWORD from environment
+	pip3 install twine
+	twine check dist/*
+	@echo "Uploading to PyPI (test instance):"
+	-twine upload --repository testpypi dist/*
 
 pypi: dist
 	# NOTE: twine will read TWINE_USERNAME and TWINE_PASSWORD from environment

@@ -1,4 +1,4 @@
-.PHONY: dependencies dist pypi test rst edxml
+.PHONY: dependencies dist pypi-test pypi test rst edxml
 
 all: dependencies dist pypi test
 
@@ -16,6 +16,15 @@ dist:
 	cd geography/python ; $(MAKE) dist .
 	cd networking/python ; $(MAKE) dist .
 	cd security/python ; $(MAKE) dist .
+
+pypi-test:
+	cd generic/python ; $(MAKE) pypi-test .
+	cd computing/python ; $(MAKE) pypi-test .
+	cd finance/python ; $(MAKE) pypi-test .
+	cd forensics/python ; $(MAKE) pypi-test .
+	cd geography/python ; $(MAKE) pypi-test .
+	cd networking/python ; $(MAKE) pypi-test .
+	cd security/python ; $(MAKE) pypi-test .
 
 pypi:
 	cd generic/python ; $(MAKE) pypi .
