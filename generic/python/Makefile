@@ -3,13 +3,17 @@
 dependencies:
 	@echo "Installing dependencies:"
 	pip3 install -r requirements.txt
-	pip3 install flake8 pytest wheel twine
+	pip3 install flake8 pytest
 
-dist: dependencies
+dist:
+	pip3 install wheel
+	rm -rf build dist edxml_bricks_generic.egg-info
 	python3 setup.py sdist bdist_wheel
 
 pypi: dist
 	# NOTE: twine will read TWINE_USERNAME and TWINE_PASSWORD from environment
+	pip3 install twine
+	twine check dist/*
 	@echo "Uploading to PyPI:"
 	twine upload dist/*
 
